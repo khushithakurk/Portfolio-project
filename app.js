@@ -15,6 +15,7 @@ function PageTransitions(){
             let button=document.querySelector(".control control-1 active-btn");
             button.OnClick=function(){
             window.location.reload();
+            }
         })
 
     }
