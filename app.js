@@ -12,10 +12,10 @@ function PageTransitions(){
             let currentBtn = document.querySelectorAll('.active-btn');
             currentBtn[0].className = currentBtn[0].className.replace('active-btn', '');
             this.className += 'active-btn'; 
-            let button=document.querySelector(".control control-1 active-btn");
-            button.OnClick=function(){
-            window.location.reload();
-            }
+            // let button=document.querySelector(".control control-1 active-btn");
+            // button.OnClick=function(){
+            // window.location.reload();
+            // }
         })
 
     }
