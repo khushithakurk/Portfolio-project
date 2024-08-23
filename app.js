@@ -2,7 +2,7 @@ const sections = document.querySelectorAll('.section');
 const sectBtns = document.querySelectorAll('.controls');
 const sectBtn = document.querySelectorAll('.control');
 const allSections = document.querySelector('.main-content');
-
+const button =document.querySelector('.control control-1 active-btn');
 
 
 function PageTransitions(){
@@ -12,8 +12,9 @@ function PageTransitions(){
             let currentBtn = document.querySelectorAll('.active-btn');
             currentBtn[0].className = currentBtn[0].className.replace('active-btn', '');
             this.className += 'active-btn'; 
-            // let button=document.querySelector("control control-1 active-btn");
-            // window.location.reload();
+            let button=document.querySelector(".control control-1 active-btn");
+            button.OnClick=function(){
+            window.location.reload();
         })
 
     }
